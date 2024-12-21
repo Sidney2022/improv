@@ -6,7 +6,7 @@
     <title>Landing Page</title>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="landing.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 
                 <ul class="menu-list">
                     <li><a href="sign-in.html">SignIn</a></li>
-                    <li><a href="user.html">Get Started</a></li>
+                    <li><a href="splash-screen.html">Get Started</a></li>
                 </ul>
              </div>
         </nav>
@@ -59,7 +59,7 @@
                 </p>
 
                 <div class="hero-btns">
-                    <p><a href="./index.html">Sign Up Now</a></p>
+                    <p><a href="./signup.html">Sign Up Now</a></p>
                     <p><a href="#features">Learn More</a></p>
                 </div>
             </article>
@@ -329,6 +329,7 @@
 
       /// STORIES SLIDER
       document.addEventListener('DOMContentLoaded', function () {
+
         new Splide('#stories-slider', {
             type   : 'loop', // Makes the slider loop infinitely
             perPage: 1,      // Show one slide per page
@@ -336,14 +337,15 @@
             pauseOnHover: true,
             pagination: true, // Show dots for navigation
         }).mount();
+        
        });
 
-
+         
 
      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script type="" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script type="" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
