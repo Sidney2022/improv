@@ -111,3 +111,10 @@ body {
     flex: 1;
     background: url('images/Tower.png') no-repeat center center/cover;
 }
+
+
+@media (max-width:600px) {
+    .image-container {
+        display: none;
+    }
+}
